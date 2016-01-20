@@ -1,1 +1,1 @@
-var eve = require('eve')
+window.eve = require('snapsvg/node_modules/eve')

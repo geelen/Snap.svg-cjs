@@ -37,6 +37,6 @@ gulp.task('default', _ => {
     'cjs-head.js',
     ...expectedSourceFiles.map(f => `${srcPath}/${f}`),
     'cjs-foot.js'
-  ]).pipe(concat('snap.svg.js'))
+  ]).pipe(concat('snap.svg-cjs.js'))
     .pipe(gulp.dest('dist'))
 })

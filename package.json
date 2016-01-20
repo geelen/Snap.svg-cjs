@@ -4,7 +4,9 @@
   "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack",
   "main": "dist/snap.svg.js",
   "scripts": {
-    "start": "gulp",
+    "build": "gulp && webpack dist/snap.svg-cjs.js --output-file=dist/snap.svg.js",
+    "start": "superstatic",
+    "pretest": "npm run build",
     "test": "karma"
   },
   "repository": {
@@ -26,9 +28,12 @@
     "assert": "^1.3.0",
     "babel-core": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
+    "expect.js": "^0.3.1",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
+    "mocha": "^2.3.4",
     "snapsvg": "0.4.0",
-    "superstatic": "^4.0.1"
+    "superstatic": "^4.0.1",
+    "webpack": "^1.12.11"
   }
 }
