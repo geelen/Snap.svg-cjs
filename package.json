@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/geelen/Snap.svg-cjs#readme",
   "devDependencies": {
+    "assert": "^1.3.0",
     "babel-core": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",
     "gulp": "^3.9.0",
