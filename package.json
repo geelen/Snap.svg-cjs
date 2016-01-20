@@ -2,8 +2,9 @@
   "name": "snapsvg-cjs",
   "version": "0.0.1",
   "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack",
-  "main": "dist/snapsvg-cjs.js",
+  "main": "dist/snap.svg.js",
   "scripts": {
+    "start": "gulp",
     "test": "karma"
   },
   "repository": {
@@ -20,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/geelen/Snap.svg-cjs/issues"
   },
-  "homepage": "https://github.com/geelen/Snap.svg-cjs#readme"
+  "homepage": "https://github.com/geelen/Snap.svg-cjs#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "snapsvg": "0.4.0",
+    "superstatic": "^4.0.1"
+  }
 }
