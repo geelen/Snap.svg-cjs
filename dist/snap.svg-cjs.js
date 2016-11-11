@@ -1621,7 +1621,6 @@ function unit2px(el, name, value) {
  = (Element) the current element
 \*/
 Snap.select = function (query) {
-    query = Str(query).replace(/([^\\]):/g, "$1\\:");
     return wrap(glob.doc.querySelector(query));
 };
 /*\
@@ -2612,7 +2611,6 @@ Snap.plugin(function (Snap, Element, Paper, glob, Fragment) {
      = (Element) result of query selection
     \*/
     elproto.select = function (query) {
-        query = Str(query).replace(/([^\\]):/g, "$1\\:");
         return wrap(this.node.querySelector(query));
     };
     /*\
