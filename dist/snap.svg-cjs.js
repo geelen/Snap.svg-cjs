@@ -8142,4 +8142,4 @@ Snap.plugin(function (Snap, Element, Paper, glob) {
     };
 });
 
-export default Snap;
+module.exports = Snap
