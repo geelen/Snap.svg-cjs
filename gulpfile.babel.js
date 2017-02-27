@@ -1,7 +1,7 @@
-import gulp from 'gulp'
+import assert from 'assert'
 import concat from 'gulp-concat'
 import fs from 'fs'
-import assert from 'assert'
+import gulp from 'gulp'
 
 const srcPath = __dirname + '/node_modules/snapsvg/src';
 
@@ -10,6 +10,7 @@ const expectedSourceFiles = [
   "mina.js",
   "svg.js",
   "element.js",
+  "animation.js",
   "matrix.js",
   "attr.js",
   "class.js",
@@ -20,7 +21,8 @@ const expectedSourceFiles = [
   "equal.js",
   "mouse.js",
   "filter.js",
-  "align.js"
+  "align.js",
+  "colors.js"
 ]
 const excludedSourceFiles = [
   "amd-banner.js",

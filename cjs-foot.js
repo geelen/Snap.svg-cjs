@@ -1,1 +1,1 @@
-module.exports = Snap
+export default Snap;
