@@ -7,7 +7,7 @@ This project simply unwraps the excellent [SnapSVG](https://github.com/adobe-web
 ```
 npm install
 npm run build
-npm run serve
+npm run start
 ```
 
 Now hit `http://localhost:3474/test/test.html` to run SnapSVG's own test suite against this project.

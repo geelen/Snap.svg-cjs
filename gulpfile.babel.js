@@ -20,7 +20,9 @@ const expectedSourceFiles = [
   "equal.js",
   "mouse.js",
   "filter.js",
-  "align.js"
+  "align.js",
+  "animation.js",
+  "colors.js",
 ]
 const excludedSourceFiles = [
   "amd-banner.js",
