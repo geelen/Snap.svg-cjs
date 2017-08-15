@@ -1646,7 +1646,6 @@ function unit2px(el, name, value) {
  = (Element) the current element
 \*/
 Snap.select = function (query) {
-    query = Str(query).replace(/([^\\]):/g, "$1\\:");
     return wrap(glob.doc.querySelector(query));
 };
 /*\
