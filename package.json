@@ -1,6 +1,6 @@
 {
   "name": "snapsvg-cjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack",
   "main": "dist/snap.svg-cjs.js",
   "scripts": {
