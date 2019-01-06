@@ -3,6 +3,7 @@
   "version": "0.0.6",
   "description": "SnapSVG in CommonJS format, works out-of-the-box with Webpack",
   "main": "dist/snap.svg-cjs.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "gulp && webpack dist/snap.svg-cjs.js --output-file=dist/snap.svg.js",
     "start": "superstatic",
